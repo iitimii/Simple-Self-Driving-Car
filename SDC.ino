@@ -20,12 +20,15 @@ float new_dist=0;
 float distance=0;
 int ang =0;
 int turn_angle;
-float thres = 40;
 int i=0;
-float turn_delay = 4.4;
 
 float left_dist = 0;
 float right_dist = 0;
+
+float thres = 40.0;
+float turn_delay = 4.5;
+int wait = 500;
+float off = 10.0;
 
 Servo spintron;
 
@@ -58,7 +61,7 @@ void setup() {
 
   spintron.attach(servo_pin);
   delay(100);
-  distance = flight(90);
+  distance = flight(90, 100);
 }
 
 
@@ -66,10 +69,12 @@ void setup() {
 void loop() {
   left_dist = 0;
   right_dist = 0;
-  distance = flight(90);
-  // Serial.println(distance);
+  distance = flight(90, 100);
+  Serial.println(distance);
 
   while(distance < thres){
+    backward(255);
+    delay(100);
     brake(0);
     turn_angle = 0;
     
@@ -85,13 +90,13 @@ void loop() {
   //   }
   //    }
   // }
-    left_dist = flight(180);
-    right_dist = flight(0);
+    left_dist = flight(180, wait);
+    right_dist = flight(0, wait);
 
-    if(left_dist>right_dist && left_dist>thres){
+    if(left_dist>right_dist && left_dist>(thres-off)){
       turn_angle= 90;
     }
-    else if(left_dist<right_dist && right_dist>thres){
+    else if(left_dist<right_dist && right_dist>(thres-off)){
       turn_angle = -90;
     }
 
@@ -103,10 +108,10 @@ void loop() {
         delay(300);
         brake(0);
         if(left_dist>right_dist && left_dist>distance){
-      turn_angle= 157;
+      turn_angle= 170;
       }
       else if(left_dist<right_dist && right_dist>distance){
-      turn_angle = -157;
+      turn_angle = -170;
       }
   }
 
@@ -120,7 +125,7 @@ void loop() {
     Serial.println("Left");
   }
 
-  distance = flight(90);
+  distance = flight(90, 300);
   Serial.println(distance);
 
   }
@@ -131,10 +136,10 @@ void loop() {
 
 
 
-float flight(int angle){
+float flight(int angle, int wait_fn){
   
   spintron.write(angle);
-  delay(400);
+  delay(wait_fn);
 
   digitalWrite(trig, LOW);
   delay(0.001);
