@@ -2,7 +2,7 @@
 
 https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car/blob/main/video/functional%20video.MP4
 
-![Demo GIF](demo.gif) <!-- You can replace this with a GIF or image showing your project in action -->
+![Demo Video](./video/functional video.MP4) 
 
 https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car/blob/main/images/car%20image.jpg
 
