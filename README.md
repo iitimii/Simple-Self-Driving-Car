@@ -1,5 +1,5 @@
 # Simple Obstacle Detection and Collision Avoidance Self-Driving Car
-![Car Image](./images/car%20%image.jpg) 
+![Car Image](./images/car_image.jpg) 
 
 This repository contains the code and resources for a simple self-driving car prototype that utilizes an Arduino, SG90 servo motor, and HC-SR04 ultrasonic sensor for obstacle detection and collision avoidance.
 
@@ -42,7 +42,7 @@ In this project, I've developed a simple self-driving car prototype using an Ard
 - ```Servo.h``` Arduino library 
 
 ### Circuit Connection
-![Circuit Diagram](./images/circuit%20%diagram.jpg) 
+![Circuit Diagram](./images/circuit_diagram.jpg) 
 
 ### Installation
 1. Clone the repository:
@@ -59,7 +59,7 @@ In this project, I've developed a simple self-driving car prototype using an Ard
 - The car will engage its unique steering mechanism to steer away from obstacles and continue moving.
 
 ## Demo
-![Demo Video](./video/functional%20%video.MP4) 
+![Demo Video](./video/functional_video.MP4) 
 
 
 ## License
