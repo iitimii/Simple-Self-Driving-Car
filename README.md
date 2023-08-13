@@ -1,5 +1,5 @@
 # Simple Obstacle Detection and Collision Avoidance Self-Driving Car
-![Car Image](./images/chasis.jpg) 
+- [Car Image](./images/chasis.jpg) 
 
 This repository contains the code and resources for a simple self-driving car prototype that utilizes an Arduino, SG90 servo motor, and HC-SR04 ultrasonic sensor for obstacle detection and collision avoidance.
 
