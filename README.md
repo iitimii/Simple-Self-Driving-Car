@@ -55,8 +55,7 @@ In this project, I've developed a simple self-driving car prototype using an Ard
 - The car will engage its unique steering mechanism to steer away from obstacles and continue moving.
 
 ## Demo
-![Demo Video](./video/functional_video.MP4) 
-
+https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car/assets/106264110/e95fc1bf-a8fe-467f-9bae-b2116ec752b4
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
