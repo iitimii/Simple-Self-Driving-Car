@@ -50,7 +50,7 @@ In this project, I've developed a simple self-driving car prototype using an Ard
    git clone https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car.git
    cd Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car
    ```
-2. Open the Arduino IDE and load the provided code onto your Arduino.
+2. Open the Arduino IDE and upload the ```SDC.ino``` code to your Arduino.
 
 ## Usage
 - Power on the self-driving car using the two-cell lipo battery.
