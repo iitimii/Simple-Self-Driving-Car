@@ -1,6 +1,10 @@
 # Simple Obstacle Detection and Collision Avoidance Self Driving Car
 
+https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car/blob/main/video/functional%20video.MP4
+
 ![Demo GIF](demo.gif) <!-- You can replace this with a GIF or image showing your project in action -->
+
+https://github.com/iitimii/Obstacle-Detection-and-Collision-Avoidance-Self-Driving-Car/blob/main/images/car%20image.jpg
 
 This repository contains the code and resources for a simple self-driving car prototype that utilizes an Arduino, SG90 servo motor, HC-SR04 ultrasonic sensor, and differential drive for obstacle detection and collision avoidance.
 
