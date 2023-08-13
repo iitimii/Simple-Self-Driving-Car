@@ -7,16 +7,12 @@ This repository contains the code and resources for a simple self-driving car pr
 - [Introduction](#introduction)
 - [Components](#components)
 - [Features](#features)
-- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Circuit Connection](#circuit-connection)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Algorithm Overview](#algorithm-overview)
 - [Demo](#demo)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 In this project, I've developed a simple self-driving car prototype using an Arduino UNO, SG90 servo motor, HC-SR04 ultrasonic sensor, an L298N motor controller, and a 2-cell 18650 LiPo battery for obstacle detection and collision avoidance with bidirectional steering.
